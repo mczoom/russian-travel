@@ -13,11 +13,71 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/photo-grid/photo-grid.css);
 
 
-.photo-grid {
+.places {
+  margin: 92px auto 0;
+  max-width: 928px;
+  min-height: 3292px;
+}
+
+.place {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  max-width: 928px;
+  min-height: 640px;
+  column-gap: 32px;
+  margin-bottom: 80px;
+}
+
+.place__title {
+  max-width: 440px;
+  margin: 0;
+  margin-bottom: 48px;
+  padding: 0;
+  font-size: 72px;
+  line-height: 106%;
+  font-weight: 900;
+}
+
+.place__paragraph {
+  margin: 0;
+  padding: 0;
+  max-width: 456px;
+  min-height: 116px;
+  font-size: 18px;
+  line-height: 163%;
+  font-weight: 400;
+}
+
+.place__website {
+  align-self: end;
+  margin-bottom: 48px;
+}
+
+.website__url-heading {
+  margin: 0;
+  margin-bottom: 12px;
+  padding: 0;
+  font-size: 12px;
+  line-height: 100%;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.website__link {
+  font-size: 18px;
+  line-height: 122%;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.place__image {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  width: 100%;
 }
 
 
