@@ -4,3 +4,8 @@
   font-weight: 400;
   text-decoration: underline;
 }
+
+.website__link:hover {
+  opacity: .8;
+  transition: opacity .3s;
+}
