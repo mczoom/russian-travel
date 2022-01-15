@@ -23,63 +23,28 @@
 @import url(../blocks/website/__url-heading/website__url-heading.css);
 @import url(../blocks/website/__link/website__link.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
 
 
 
-.cover {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 1184px;
-  min-height: 640px;
-  margin: 92px auto 0;
-}
-
-.cover__background {
-  position: relative;
-  background-image: url('../pictures/cover_background.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 640px;
-  z-index: 0;
-}
-
-.cover__title {
-  margin: 195px auto 0;
-  max-width: 560px;
-  font-size: 72px;
-  line-height: 106%;
-  font-weight: 900;
-  text-align: center;
-}
-
-.cover__subtitle {
-  margin: 32px auto 0;
-  max-width: 360px;
-  font-size: 18px;
-  line-height: 122%;
-  font-weight: 400;
-  text-align: center;
-}
 
 
-.cover__background::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  opacity: .3;
-  width: 100%;
-  height: 100%;
-  background-color: #2A2C2F;
-  z-index: -1;
-}
 
-.cover__background:hover::before {
-  opacity: .8;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
