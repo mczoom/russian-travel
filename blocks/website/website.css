@@ -1,0 +1,13 @@
+.website {
+  align-self: end;
+  margin-bottom: 48px;
+}
+
+@media screen and (max-width: 320px) {
+  .website {
+    align-self: flex-start;
+    min-width: 288px;
+    margin: 0 auto 32px;
+  }
+}
+

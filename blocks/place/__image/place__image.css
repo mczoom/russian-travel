@@ -3,3 +3,9 @@
   grid-row-end: 4;
   width: 100%;
 }
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    margin-bottom: 32px;
+  }
+}
