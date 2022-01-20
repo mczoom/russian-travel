@@ -1,7 +1,7 @@
 .cover__background {
   position: relative;
   background-image: url('../../../pictures/cover_background.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
