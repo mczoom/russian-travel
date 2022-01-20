@@ -1,14 +1,14 @@
 .header {
   display: flex;
-  max-width: 928px;
+  max-width: 1184px;
   min-height: 52px;
   justify-content: space-between;
   margin: 0 auto;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .header {
-    max-width: 1184px;
+    max-width: 928px;
   }
 }
 
