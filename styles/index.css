@@ -1,4 +1,5 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/InterWeb/inter.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
@@ -37,43 +38,6 @@
 @import url(../blocks/footer-links/footer-links.css);
 @import url(../blocks/footer-links/__link/footer-links__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-
-
-
-
-
-
-
-
-
-
-
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  src: url("../Inter-3.19/Inter Web/Inter-Regular.woff2") format("woff2"),
-       url("../Inter-3.19/Inter Web/Inter-Regular.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  src: url("../Inter-3.19/Inter Web/Inter-Black.woff2") format("woff2"),
-       url("../Inter-3.19/Inter Web/Inter-Black.woff") format("woff");
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 700;
-  src: url("../Inter-3.19/Inter Web/Inter-Bold.woff2") format("woff2"),
-       url("../Inter-3.19/Inter Web/Inter-Bold.woff") format("woff");
-}
-
-
 
 
 

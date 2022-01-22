@@ -2,28 +2,28 @@
   margin: 0;
   padding: 0;
   max-width: 484px;
-  min-height: 116px;
+  min-height: 100px;
   font-size: 18px;
   line-height: 163%;
   font-weight: 400;
 }
 
-@media screen and (max-width: 768px) {
-  .place__paragraph {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     margin-bottom: 25px;
-    max-width: 288px;
-    margin-left: auto;
-    margin-right: auto;
   }
+
   .place__paragraph:last-of-type {
     margin-bottom: 0px;
   }
+}
 
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    min-height: 70px;
+    font-size: 16px;
+    max-width: 100%;
+    padding: 0 16px;
+  }
 }

@@ -3,11 +3,12 @@
   margin-bottom: 48px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .website {
     align-self: flex-start;
-    min-width: 288px;
-    margin: 0 auto 32px;
+    max-width: calc(100% - 32px);
+    margin-bottom: 32px;
+    padding: 0 16px;
   }
 }
 
