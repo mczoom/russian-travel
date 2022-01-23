@@ -5,12 +5,27 @@
   min-height: 116px;
   font-size: 18px;
   line-height: 163%;
-  font-weight: normal;
+  font-weight: 400;
+  margin-bottom: 26px;
+}
+
+.place__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__paragraph {
+    font-size: 16px;
+    max-width: 456px;
+    margin-bottom: 27px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
+    max-width: 352px;
+    margin-bottom: 25px;
   }
 }
 
@@ -18,7 +33,7 @@
   .place__paragraph {
     min-height: 70px;
     font-size: 16px;
-    max-width: 100%;
+    max-width: 352px;
     padding: 0 16px;
   }
 }
