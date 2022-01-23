@@ -2,12 +2,13 @@
   grid-row-start: 2;
   grid-row-end: 5;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 
 @media screen and (max-width: 767px) {
   .place__image {
-    width: 100%;
     margin-bottom: 32px;
   }
 }
