@@ -2,20 +2,15 @@
   margin: 0;
   padding: 0;
   max-width: 484px;
-  min-height: 100px;
+  min-height: 116px;
   font-size: 18px;
   line-height: 163%;
-  font-weight: 400;
+  font-weight: normal;
 }
 
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
-    margin-bottom: 25px;
-  }
-
-  .place__paragraph:last-of-type {
-    margin-bottom: 0px;
   }
 }
 
