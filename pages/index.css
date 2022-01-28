@@ -1,7 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/InterWeb/inter.css);
 @import url(../blocks/root/root.css);
-@import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -24,7 +23,6 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__website/);
 @import url(../blocks/website/website.css);
 @import url(../blocks/website/__url-heading/website__url-heading.css);
 @import url(../blocks/website/__link/website__link.css);
@@ -34,7 +32,5 @@
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/footer/footer.css);
-@import url(../blocks/nav/nav.css);
 @import url(../blocks/footer-links/footer-links.css);
-@import url(../blocks/footer-links/__link/footer-links__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
