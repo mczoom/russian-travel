@@ -7,6 +7,8 @@
   width: 100%;
   min-height: 740px;
   z-index: 0;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .cover__background::before {
