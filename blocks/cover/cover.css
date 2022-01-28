@@ -14,10 +14,18 @@
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .cover {
+    max-width: 768px;
+    min-height: 480px;
+    margin-top: 90px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cover {
     max-width: 767px;
-    min-height: 480px;
+    min-height: 400px;
     margin-top: 90px;
   }
 }
